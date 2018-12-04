@@ -1,0 +1,48 @@
+ class Mp3Player
+    {
+        [DllImport/*attribute is a declarative tag used in C# to mark a class method as being defined in an external dynamic-link library (DLL) rather than in any*/("winmm.dll")/* de LIBRARY btnadeha 34an hncall functions mo3yna mnha , w dah link lha lw 3ayz t4of elfuns. ely feha (http://www.softspecialists.com/.%5Clibrary%5Cgenlib%5C7%5Cwinmm.htm) */]
+       // private static extern/*(keyword) method is implemented outside the code (bt3rfoh enk htimplemnted 7aga mn bra as mediafile ) */ long /* (keyword) is a data type , (  constant or variable defined as long can store a single 64-bit signed integer) */ mciSendString/*bos zy function kebyra feha command kter lazem tcallha 34an t2dar tnady elcommnds which u need to . */(string lpstrCommand /* da 2ol command hnadeh 34an n2dr nusing t7t fe elmotheds ely hn3mlha whatever |play| , |open| , | pause| */, StringBuilder lpstrReturnString,int uReturnLength,int hwdCallBack);
+
+        private static extern long mciSendString(string lpstrCommand, StringBuilder lpstrReturnString, int uReturnLength, int hwdCallBack);
+
+        public void play()/* de 2ol method 3ndna hn create it 2bl method el open 34an aol lama tft7 el song tplay 3lato */
+        {
+            string command/* hna b initialize a string 34an no7ot gwaha el command bt3na*/ = "play MediaFile"/* hn7ot el string d 34an nplay file feh sound */;
+            mciSendString/*bncall el method */(command/*bn7otha fe 2ol parameter (lpstrCommand) */, null, 0, 0);
+        }
+
+        public void open(string File/**/)/*open method */
+        {
+            string Format/* */ = @"open ""{0}"" type MPEGVideo alias MediaFile";
+            string command = string.Format(Format, File);
+            mciSendString(command, null, 0, 0);
+            play();/* method el play 34an song tplay 2ol ma yimport elsong */
+        }
+        
+        
+        public void stop()
+        {
+            string command = "stop MediaFile";
+            mciSendString(command, null, 0, 0);
+        }
+        public void resume()
+        {
+            string command = " resume MediaFile";
+            mciSendString(command, null, 0, 0);
+        }
+        /*private void PlayOrPause()
+        {
+            if (me_player.Source != null)
+            {
+                if (isPlaying)
+                {
+                    mp3Player.stop();
+                }
+                else
+                {
+                    mp3Player.play();
+                }
+                isPlaying = !isPlaying;
+            }
+        }*///under development
+    }
