@@ -1,0 +1,11 @@
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\bin\Debug\Mp3 Player Final Version.exe.config
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\obj\Debug\Mp3 Player Final Version.csprojResolveAssemblyReference.cache
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\obj\Debug\Mp3_Player_Final_Version.Form1.resources
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\obj\Debug\Mp3_Player_Final_Version.Properties.Resources.resources
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\obj\Debug\Mp3 Player Final Version.csproj.GenerateResource.Cache
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\bin\Debug\Mp3 Player Final Version.exe
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\bin\Debug\Mp3 Player Final Version.pdb
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\bin\Debug\Bunifu.Core.dll
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\obj\Debug\Mp3 Player Final Version.exe
+C:\Users\Mr.M.O\Desktop\GitHub\Mp3 Player Final Version\Mp3 Player Final Version\obj\Debug\Mp3 Player Final Version.pdb
